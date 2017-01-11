@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
+
+  
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+  
+  
+  <!-- Latest Sortable -->
+  <script src="http://rubaxa.github.io/Sortable/Sortable.js"></script>
+  
+ <style type="text/css">
+     body {
+      margin: 10px;
+    }
+
+    .list-group-item {
+      width:100%;
+      height: 150px;
+      font-size: 22px;
+    }
+ </style>> 
+<script src="https://fb.me/react-with-addons-15.1.0.js"></script>
+<script src="https://fb.me/react-dom-15.1.0.js"></script>
+  <!-- Simple List -->
+  <div id="simpleList" class="list-group">
+    <div class="list-group-item">This is <a href="http://rubaxa.github.io/Sortable/">Sortable</a></div>
+    <div class="list-group-item">It works with Bootstrap...</div>
+    <div class="list-group-item">...out of the box.</div>
+    <div class="list-group-item">It has support for touch devices.</div>
+    <div class="list-group-item">Just drag some elements around.</div>
+  </div>
+  <script>
+    Sortable.create(simpleList, { /* options */ });
+  </script>
+  
+</body>
+</html>
